@@ -114,9 +114,18 @@ const zooAnimals = [
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
 
-  function consume(/*Your Code Here */){
-    /*Your Code Here */
+  function consume(a, b, cb){
+    return cb(a, b);
   }
+
+  const add = function(a, b){
+    return a + b;
+  }
+
+  const sub = function(a, b){
+    return a*b;
+  }
+
  
   
   /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
