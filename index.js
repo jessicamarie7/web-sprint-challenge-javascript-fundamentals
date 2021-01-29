@@ -16,7 +16,7 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-
+// When nestedFunction is run it pulls internal from the function which requires that it pulls the string from the variable internal.
 
 
 
@@ -28,10 +28,15 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
+const Arr = [1, 2, 3, 4];
 
-  }
+function summation(number) {
+  const numSummation = Arr.reduce(function(accumulator, number)
+  console.log(`The ${accumulator}`);
+  console.log(`The running total ${number.fourNumbers}`);
+  return accumulator + number.fourNumbers;
+    },0);
+    
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
